@@ -11,6 +11,8 @@ df = pd.read_csv('pulsars.csv')
 df['RA (deg)']  = 0
 df['Dec (deg)'] = 0
 
+# gbgkjgkjgkj
+
 # Loop over dataframe and convert RA and Dec to degrees
 for index, row in df.iterrows():
     ra_hms  = row['RA (HMS)']
